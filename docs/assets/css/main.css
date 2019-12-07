@@ -3790,12 +3790,12 @@ input, select, textarea {
 		}
 
 		.statistics li img {
-			width: auto;
+			width: 90%;
 			height: 200px;
 		}
 
 		#bb1, #bb2, #bb3 {
-			width: 200px;
+			width: 30%;
 			height: 300px;
 		}
 
