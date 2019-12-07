@@ -3783,3 +3783,8 @@ input, select, textarea {
 			}
 
 		}
+
+		.features li img{
+			width: auto;
+			height: 170px;
+		}
