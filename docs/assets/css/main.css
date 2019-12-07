@@ -3788,3 +3788,23 @@ input, select, textarea {
 			width: auto;
 			height: 170px;
 		}
+
+		.statistics li img {
+			width: auto;
+			height: 200px;
+		}
+
+		#bb1, #bb2, #bb3 {
+			width: 200px;
+			height: 300px;
+		}
+
+		#nopo, #cliff {
+			width: 140%;
+			height: 200px;
+		}
+
+		.col-4 img{
+			width: auto;
+			height: 210px;
+		}
