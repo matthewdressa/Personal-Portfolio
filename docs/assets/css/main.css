@@ -3795,13 +3795,13 @@ input, select, textarea {
 		}
 
 		#bb1, #bb2, #bb3 {
-			width: 30%;
-			height: 300px;
+			width: auto;
+			height: 700px;
 		}
 
 		#nopo, #cliff {
-			width: 140%;
-			height: 200px;
+			width: auto;
+			height: 260px;
 		}
 
 		.col-4 img{
