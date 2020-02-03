@@ -3789,16 +3789,24 @@ input, select, textarea {
 			height: 170px;
 		}
 
-		.statistics li img {
+		.ballot_box li img {
 			width: auto;
 			height: 300px;
-			border: 2px solid grey;
+			border: 1px solid rgb(158, 155, 155);
+			border-radius: 4px;
 
+		}
+
+		.photography li img {
+			width: auto;
+			height: 250px;
+			border-radius: 5px;
 		}
 
 		#bb1, #bb2, #bb3 {
 			width: auto;
 			height: 700px;
+			/* border: 2px solid grey; */
 		}
 
 		#nopo, #cliff {
