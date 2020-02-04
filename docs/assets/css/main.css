@@ -3797,6 +3797,12 @@ input, select, textarea {
 
 		}
 
+		.webs li img {
+			width: auto;
+			height: 200px;
+		}
+
+
 		.photography li img {
 			width: auto;
 			height: 250px;
