@@ -3820,6 +3820,11 @@ input, select, textarea {
 			height: 260px;
 		}
 
+		#hc_1, #hc_2 {
+			width: auto;
+			height: 260px;
+		}
+
 		.col-4 img{
 			width: auto;
 			height: 210px;
