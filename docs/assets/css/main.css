@@ -100,10 +100,10 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #1f71c6 85%, #8b8b8b 15%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #1f71c6 85%, #8b8b8b 15%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #1f71c6 85%, #8b8b8b 15%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #1f71c6 85%, #8b8b8b 15%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2823,12 +2823,8 @@ input, select, textarea {
 			/* flex: 4; */
 		}
 
-		.sub_features {
-			display: flex;
-
-		}
-
-		.sub_features li {
+		
+		.link_pairs li {
 			flex-direction: row;
 			flex-flow: row wrap;
 		}
@@ -3317,7 +3313,8 @@ input, select, textarea {
 					}
 
 					#nav ul li a.active {
-						background-color: #ffffff;
+						/* background-color: #ffffff; */
+						border: 2px solid #8b8b8b;
 						box-shadow: none;
 					}
 
@@ -3807,6 +3804,7 @@ input, select, textarea {
 		.features li img{
 			width: auto;
 			height: 170px;
+			text-align: center;
 		}
 
 		.ballot_box li img {
@@ -3862,3 +3860,16 @@ input, select, textarea {
 			display: inline-block;
 		}
 	
+		.link_pairs {
+			display: flex;
+
+		}
+		.link_pairs li {
+			flex-direction: column;
+		}
+
+	.statistics h4 {
+		font-style: italic;
+		font-size: smaller;
+		font-weight: bold;
+	}
