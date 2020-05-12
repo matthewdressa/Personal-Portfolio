@@ -3868,6 +3868,8 @@ input, select, textarea {
 			flex-direction: column;
 		}
 
-		.center{
-			text-align: center;
-		}
+	.statistics h4 {
+		font-style: italic;
+		font-size: smaller;
+		font-weight: bold;
+	}
