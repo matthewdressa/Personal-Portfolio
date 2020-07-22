@@ -2363,10 +2363,12 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 8px;
+		/* border-radius: 8px; */
 		border: 0;
 		display: inline-block;
 		position: relative;
+
+		
 	}
 
 		.image img {
@@ -3563,10 +3565,14 @@ input, select, textarea {
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			/* background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0); */
+			background-image: -moz-linear-gradient(90deg, grey);
+			background-image: -webkit-linear-gradient(90deg, grey);
+			background-image: -ms-linear-gradient(90deg, grey);
+			background-image: linear-gradient(90deg, grey);
 		}
 
 		#main table tbody tr {
@@ -3872,4 +3878,9 @@ input, select, textarea {
 		font-style: italic;
 		font-size: smaller;
 		font-weight: bold;
+	}
+
+	#real_nigga {
+		border: none;
+		
 	}
