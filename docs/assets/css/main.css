@@ -3884,3 +3884,7 @@ input, select, textarea {
 		border: none;
 		
 	}
+
+	.col-4 span, a{
+		text-align: center;
+	} 
