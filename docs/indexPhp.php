@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-    Stellar by HTML5 UP
-    html5up.net | @ajlkn
-    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
     <head>
         <title>Matthew Dressa</title>
@@ -25,7 +21,7 @@
           <i class="fa fa-bars"></i>
         </a>
       </div> -->
-<div class="thingamajigs nav_hide sticky">
+<!-- <div class="thingamajigs nav_hide sticky">
     <div id="float_right">
         <p>Matthew Dressa</p>
     </div>
@@ -33,39 +29,10 @@
         <img onclick="openNav()" src="assets/images/menu.png" id="menu_sizing">
     </span>
 
-</div>
-      <div id="mySidenav" class="sidenav nav_hide">
-        <a href="javascript:void(0)" class="closebtn" id="tres_bar" onclick="closeNav()">&equiv;</a>
-        <!-- <span href="javascript:void(0)" class="closebtn nav_hide menu_toggle" ><img onclick="closeNav()" src="assets/images/menu_invert.png" id="tres_bars"></span> -->
-        <!-- <a href="javascript:void(0)" src="assets/images/menu.png" class="closebtn" onclick="closeNav()"></a> -->
+</div> -->
 
-        <a href="#home" id="me">Matthew Dressa</a>
+    <?php include('mobile_nav.php'); ?>
 
-        <a class= "main_title" href="#">Professional</a>
-        <div class="nav_bunching">
-            <a href="bio_page.html">ICTs for Refugees</a>
-            <a href="#">Ballot Box: INF0 3450</a>
-            <a href="#">WeFit: Mobile App Prototype</a>
-            <a href="#">Designing with Older Adults</a>
-        </div>
-
-        <a class= "main_title" href="#">Artistic Projects</a>
-
-        <div class="nav_bunching">
-            <a href="#">Los Angeles, CA 2019</a>
-            <a href="#">Haircuts & Barbering</a>
-            <a href="#">Shots from Portugal 2019</a>
-            <a href="#">Pictures from Japan, 2017</a>
-        </div>
-
-        <a class= "main_title" href="#">Miscellaneous</a>
-        <div class="nav_bunching">
-            <a href="#">Food & Drink</a>
-            <a href="#">Mobile App Reviews</a>
-            <a href="#">Environmental Shopping</a>
-      </div>
-
-    </div>
     <!-- <span id="" style="font-size:20px;cursor:pointer" onclick="openNav()">&#8801;</span> -->
     <!-- <div class="top_span"> -->
     
@@ -134,8 +101,8 @@
         </div> 
 
     
-    </div>
- -->
+    </div> -->
+
 
         <div id="outer">
 
@@ -147,68 +114,32 @@
                         <h3>Dressa</h3>
                         </div>
                 </ul> -->
-                <div class="nav" id="nav">
-                <ul class="second">
-                    
-                    <div class="nav_bunching">
+                <?php include('web_nav.php'); ?>
 
-                        <li class="nav_title"><a href="index.html">Professional</a></li>
 
-                            <li><a href="bio_page.html">About Me</a></li>
-                            <li><a href="bio_page.html">Ballot Box: INF0 3450</a></li>
-                            <li><a href="bio_page.html">WeFit: Mobile App Prototype</a></li>
-                            <li><a href="bio_page.html">Design Project with Older Adults</a></li>
-                            <li><a href="index.html">ICTs for Displaced Populations</a></li>
-
-                            <!-- <li><a href="index.html">Publications</a></li> -->
-
-                    </div>
-
-                    <div class="nav_bunching">
-
-                        <li class="nav_title"><a href="index.html" >Artistic Projects</a></li>
-                            <li><a href="video_page.html">Shots from Portugal 2019</a></li>
-                            <li><a href="video_page.html">Pictures from Japan, 2017</a></li>
-                            <li><a href="video_page.html">Los Angeles, CA 2019</a></li>
-                            <li><a href="index.html">Haircuts & Barbering</a></li>
-                    </div>
-
-                    <div class="nav_bunching">
-
-                        <li class="nav_title"><a href="home_testing.html" >Miscellaneous</a></li>
-                        
-                            <li><a href="index.html">Mobile App Reviews</a></li>
-                            <li><a href="index.html">Book Reviews</a></li>
-                            <li><a href="index.html">Food & Drink</a></li>
-                            <li><a href="home_testing.html">Environmentally Friendly Shopping</a></li>
-                    </div>
-
-                    <!-- <li><a href="#second">UX/UI Design</a></li>
-                    <li><a href="HCI.html">HCI</a></li>
-                    <li><a href="Multimedia.html">Multimedia</a></li> -->
-                </ul>
-            </div>
+                
+                
                 
                 <div class="empty_space hide"></div>
                 <div class="box_container">
                     <div class="col_1">
                         <div class="box"><span class="image_fit"><img src="assets/images/we_fit1.png" alt=""  /></span>
-                            <p class="post_title">Lore Ipsum</p>
-                            <p class="title_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p> 
+                            <p class="post_title">WeFit: Design Research Project</p>
+                            <p class="title_desc">A study of college students' phone use during the quarantine period</p> 
                         </div>
                         <div class="box"><span class="image_fit"><img src="assets/images/dea.jpg" alt="" /></span>
-                            <p class="post_title">Lore Ipsum</p>
-                            <p class="title_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p> 
+                            <p class="post_title"> DEA 3590: Office Requirements</p>
+                            <p class="title_desc">Designing an ADA accesible office space</p> 
                         </div>
                         <div class="box"><span class="image_fit"><img src="assets/images/bb_prototype.png" alt="" /></span>
-                            <p class="post_title">Lore Ipsum</p>
-                            <p class="title_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p> 
+                            <p class="post_title">Ballot Box Protoype</p>
+                            <p class="title_desc">Addressing low absentee voting through mobile technology</p> 
                         </div>
                     </div>
                     <div class="col_2">
                         <div class="box"><span class="image_fit"><img src="assets/images/ideation.jpg" alt="" /></span>
-                            <p class="post_title">Lore Ipsum</p>
-                            <p class="title_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p> 
+                            <p class="post_title">Older Adults Design</p>
+                            <p class="title_desc">Mixed method research approach to understand and implement an inclusive design for older adults</p> 
                         </div>
                         <div class="box"><span class="image_fit"><img src="assets/images/sunset.jpg" alt="" /></span>
                             <p class="post_title">Lore Ipsum</p>
@@ -226,6 +157,7 @@
             </div>
 
             <footer id="footer">
+
             </footer>
 
             <!-- Scripts -->
