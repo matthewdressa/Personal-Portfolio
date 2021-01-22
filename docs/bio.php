@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<!--
+    Stellar by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>Matthew Dressa</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/updated_styling.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400&display=swap" rel="stylesheet">
+        <!-- <noscript><link rel="stylesheet" href="assets/css/updated_styling.css" /></noscript> -->
+    </head>
+<body>
+
+
+<?php include('mobile_nav.php'); ?>
+
+
+      <!-- <div id="mySidenav" class="sidenav nav_hide">
+        <a href="javascript:void(0)" class="closebtn" id="tres_bar" onclick="closeNav()">&equiv;</a>
+       
+        <a href="#home" id="me">Matthew Dressa</a>
+
+        <a class= "main_title" href="#">Professional</a>
+        <div class="nav_bunching">
+            <a href="bio_page.html">About Me</a>
+            <a href="#">ICTs for Refugees</a>
+            <a href="#">Ballot Box: INF0 3450</a>
+            <a href="#">WeFit: Mobile App Prototype</a>
+            <a href="#">Designing with Older Adults</a>
+        </div>
+
+        <a class= "main_title" href="#">Artistic Projects</a>
+
+        <div class="nav_bunching">
+            <a href="video_page.html">Los Angeles, CA 2019</a>
+            <a href="video_page.html">Haircuts & Barbering</a>
+            <a href="video_page.html">Shots from Portugal 2019</a>
+            <a href="video_page.html">Pictures from Japan, 2017</a>
+        </div>
+
+        <a class= "main_title" href="#">Miscellaneous</a>
+        <div class="nav_bunching">
+            <a href="#">Food & Drink</a>
+            <a href="#">Mobile App Reviews</a>
+            <a href="#">Environmental Shopping</a>
+      </div>
+
+    </div> -->
+    
+
+        <div id="outer">
+
+            <?php include('web_nav.php'); ?>
+
+                
+                
+               
+                <div class="right_panel">
+                <span id="me_page"><img src="assets/images/me_2.JPG" ></span>
+                <p class="_title">
+                    About Me 
+                 </p>
+                 <div class="center_content">
+                     <p>Hello, my name is Matthew I am a current senior at Cornell University and future PhD applicant in Information Science. My research interests are inclusive design and accessible computing for vulnerable groups such as:
+                     </p>
+
+                     <ul>
+                         <li>
+                            Individuals with Cognitive Disabilities 
+                           
+                         </li>
+                         <li>
+                            Immigrants, Refugees, or Displaced Populations
+                         </li>
+                         <li>
+                            Long term addicts
+
+                         </li>
+                     </ul>
+                     <p >Currently I am working on a research project at the <a id="me_hover"href="https://socialmedialab.cornell.edu/"> Social Media Lab</a> in conjunction with the Weil Medical Center, to help provide refugees living in New York City with accessible mobile information management tools during the pandemic. 
+
+                    </p>
+ 
+                    
+
+                </div>
+                </div>
+            </div>
+
+            
+
+               
+            <footer id="footer">
+            </footer>
+
+            <!-- Scripts -->
+            <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/jquery.scrollex.min.js"></script>
+            <script src="assets/js/jquery.scrolly.min.js"></script>
+            <script src="assets/js/browser.min.js"></script>
+            <script src="assets/js/breakpoints.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <!-- <script src="assets/js/main.js"></script> -->
+            <script src="assets/js/mobile_version.js"></script>
+
+</body>
+</html>
