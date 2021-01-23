@@ -73,9 +73,7 @@ body {
 }
 .nav li a{
     padding: 0px;
-    /* padding: 0px; */
     width: 100%;
-    /* background-color:white; */
     text-decoration: none;
     color: black;
     font-size: 70%;
@@ -229,7 +227,31 @@ iframe {
     padding: 50px;
     font-size: 1.5em;
     /* font-weight: bold; */
+
 }
+
+.right_side{
+    background-image: url("../../assets/images/angel.jpg");
+    background-size: cover;
+    flex: 4;
+    height: 40em;
+    margin: 50px;
+    /* flex-grow: 3; */
+    /* max-width: 800px;
+    max-height: 600px; */
+}
+
+.bkg_image {
+        background-image: url("../../assets/images/angel.jpg");
+        background-size: cover;
+        
+        /* flex-grow: 3; */
+        /* max-width: 800px;
+        max-height: 600px; */
+
+}
+
+
 /*--------------------------- For Mobile -------------------------- */
 
 @media screen and (max-width: 426px) {
@@ -253,6 +275,11 @@ iframe {
         width: 300px;
         height: 300px;
     } */
+
+    .right_side {
+        margin: 0;
+
+    }
 }
 
 @media screen and (max-width: 1100px){
@@ -294,6 +321,15 @@ iframe {
     /* .v_title {
         width: 50%;
     } */
+
+    .right_side {
+        
+        height: 30em;
+        margin: 30px;
+        /* flex-grow: 3; */
+        /* max-width: 800px;
+        max-height: 600px; */
+    }
 } 
 
 
