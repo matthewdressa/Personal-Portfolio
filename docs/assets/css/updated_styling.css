@@ -14,21 +14,45 @@ body {
    
 
 
-.me:hover {
-    /* background-color: rgba(0, 0, 0, 0); */
+/* .my_name:hover {
     -webkit-text-fill-color: white;
     -moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
     -webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
     -ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
     transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
     background-color:#0a751c;
-    /* box-shadow:20px, 20px, 20px, 20px, silver; */
+} */
+.my_name {
+    width: 50%;
+    /* background-color: black;
+    color: white; */
+    margin-bottom: 20%;
+    /* margin-left: 40px; */
+    
+    /* margin-left: 40px; */
+}
+.my_name ul {
+    list-style: none;
+    font-weight: 900;
+    
 }
 
-#me {
-    color: white;
-    font-size: inherit;
-    margin-bottom: 20px;
+.qian_style {
+    font-size:larger;
+    border: 1px solid black;
+    box-shadow: -10px -10px 0px 0px black;
+    padding: 10%;
+}
+
+
+
+.my_name .qian_style:hover {
+    /* color: white;
+    background-color: black; */
+    /* border: 2px solid black; */
+    box-shadow: -10px -10px 0px 0px black, -20px -20px 0px 0px rgba(0, 0, 0, 0.75), -30px -30px 0px 0px rgba(0, 0, 0, 0.50), -40px -40px 0px 0px rgba(0, 0, 0, 0.25);
+    /* margin-left: 20px; */
+    /* padding: 5%; */
 }
 
 #header {
@@ -50,6 +74,7 @@ body {
         
 }
 /*--------------------------- Navigation Bar -------------------------- */
+
 
 .nav {
     flex: 2;
@@ -295,6 +320,14 @@ iframe {
     height: 230px;
     border: 2px solid grey;
 }
+
+header {
+    height: 60px;
+}
+
+footer {
+    height: 60px;
+}
 /*--------------------------- For Mobile -------------------------- */
 
 @media screen and (max-width: 426px) {
@@ -339,12 +372,29 @@ iframe {
         max-width: 100%;
     }
 
+    .post_title {
+        font-size: 95%;
+        margin-top: 10px;
+    }
+    
+    .title_desc {
+        /* background-color: greenyellow; */
+        /* color: grey;
+        width: 100%; */
+        font-size:85%;
+        margin:0;
+    }
+
+    .hide {
+        display: none;
+    }
     
 }
 
 @media screen and (max-width: 1100px){
-    .nav a{
-        font-size:-10em;
+    .nav li a{
+        font-size:50%;
+        line-height: 5px;
     }
 
     .image_fit img{
@@ -353,10 +403,7 @@ iframe {
         border-radius: 1%;
     }
 
-    .box_container .box{
-        margin:3px;
-    }
-
+    
     .hide {
         display: none;
     }
@@ -481,7 +528,7 @@ iframe {
 
 
     #me_page img{
-        max-width: 420px;
+        max-width: 425px;
         margin-top: 50px;
         /* -webkit-transition: 1ms ease-in; */
         /* margin-bottom: 50px; */
@@ -496,11 +543,11 @@ iframe {
         line-height: 70%;
         font-size: 18px;
     }
-    .box {
-        
+    .box_container .box {
         width: 90%;
-        /* border-radius: 1%; */
         justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     .image_fit img {
