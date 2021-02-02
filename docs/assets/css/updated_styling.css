@@ -240,6 +240,8 @@ iframe {
 
 .center_content{
     line-height: 1.8;
+    max-width: 560px;
+
 
 }
 .center_content p{
@@ -247,6 +249,9 @@ iframe {
     min-width: 350px;
 }
 
+.bullets li{
+    margin: 2em;
+}
 .v_title {
     text-align: center;
     height: 50%;
