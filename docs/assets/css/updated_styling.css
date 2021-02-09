@@ -445,7 +445,20 @@ footer {
 
 } 
 
+.icons {
+    list-style: none;
+    display: flex;
 
+}
+.icons img {
+    margin: 5px;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.icons li:hover{
+    border-radius: 10%;
+    background-color: rgb(160, 160, 160);}
 /*------------------------ Testing------------------------ */
 
 .center {
