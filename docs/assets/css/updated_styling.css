@@ -11,7 +11,39 @@ body {
 
 /*--------------------------- My name -------------------------- */
 
-   
+.tag {
+    display: inline-block;
+    padding: 5px 12px;       /* Padding inside the bubble */
+    margin: 5px 5px 5px 0;   /* Adds space around the tag */
+    border-radius: 25px;     /* Makes the tag rounded (bubble style) */
+    font-size: 12px;         /* Font size for the text */
+    font-weight: bold;
+    color: white;            /* White text for contrast */
+    text-align: center;
+    background-color: #007bff; /* Fallback color for tags */
+}
+
+.data-science {
+    background-color: #A7A7A9; /* Blue for Data Science */
+}
+
+.hardware {
+    background-color: #797270; /* Orange for Hardware */
+}
+
+.design {
+    background-color: #3f453c; /* Orange for Hardware */
+}
+
+.fun {
+    background-color: #7e6789; /* Orange for Hardware */
+}
+
+/* Optional hover effect */
+.tag:hover {
+    opacity: 0.9;
+}
+
 
 
 /* .my_name:hover {
